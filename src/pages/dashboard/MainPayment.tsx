@@ -281,6 +281,7 @@ const handleExport = async (type = "excel") => {
                   <TableHead>Full Name</TableHead>
                   <TableHead>Phone</TableHead>
                   <TableHead>Country</TableHead>
+                  <TableHead>Converted By</TableHead>
                   <TableHead>Total Payment</TableHead>
                   <TableHead>Date</TableHead>
                   <TableHead>Status</TableHead>
@@ -297,6 +298,7 @@ const handleExport = async (type = "excel") => {
                       <TableCell>{c.fullName}</TableCell>
                       <TableCell>{c.phone1}</TableCell>
                       <TableCell>{c.targetCountry}</TableCell>
+                      <TableCell>{c.convertedBy || "-"}</TableCell>
                       <TableCell>{c.totalPayment || "-"}</TableCell>
                       <TableCell>{c.totalPaymentDate || "-"}</TableCell>
                       <TableCell>

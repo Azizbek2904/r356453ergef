@@ -16,6 +16,7 @@ import Documents from "./pages/dashboard/Documents";
 import Reception from "./pages/dashboard/Reception";
 import NotFound from "./pages/NotFound";
 import PerformancePage from "./pages/dashboard/performance/PerformancePage";
+import KanbanBoardPage from "@/pages/dashboard/KanbanBoardPage";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +39,8 @@ const App = () => (
             <Route path="performance" element={<PerformancePage />} />
             <Route path="documents" element={<Documents />} />
             <Route path="reception" element={<Reception />} />
+              <Route path="/dashboard/kanban" element={<KanbanBoardPage />} />
+
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

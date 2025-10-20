@@ -479,6 +479,7 @@ const handleConvert = async (clientId) => {
                   <TableHead>Date</TableHead>
                   <TableHead>Contract</TableHead>
                   <TableHead>Status</TableHead>
+                  <TableHead>Converted By</TableHead>
 
                   <TableHead>Files</TableHead>
                   <TableHead>Comments</TableHead>
@@ -526,6 +527,7 @@ const handleConvert = async (clientId) => {
 </select>
 
 </TableCell>
+<TableCell>{c.convertedBy || "-"}</TableCell>
 
 
                       {/* 📁 Files */}

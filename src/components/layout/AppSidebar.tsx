@@ -1,4 +1,7 @@
-import { Users, FileText, UserPlus, DollarSign, FileBox, Phone, LogOut, LayoutDashboard, UserCog, Wallet,TrendingUp } from "lucide-react";
+import {
+    Users, FileText, UserPlus, DollarSign, FileBox, Phone, LogOut, LayoutDashboard, UserCog, Wallet, TrendingUp,
+    LayoutList
+} from "lucide-react";
 import { NavLink, useNavigate } from "react-router-dom";
 import {
   Sidebar,
@@ -25,6 +28,8 @@ const menuItems = [
   { title: "Performance", url: "/dashboard/performance", icon: TrendingUp },
   { title: "Documents", url: "/dashboard/documents", icon: FileBox },
   { title: "Reception", url: "/dashboard/reception", icon: Phone },
+    { title: "Kanban Board", url: "/dashboard/kanban", icon: LayoutList },
+
 ];
 
 export function AppSidebar() {

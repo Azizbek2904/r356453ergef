@@ -218,7 +218,20 @@ export default function Employees() {
   "RECEPTION_MARK_MISSED",
   "RECEPTION_VIEW_PLANNED",
   "RECEPTION_VIEW_VISITS",
-];
+
+
+
+     // ================= 🧠 KANBAN =================
+     "KANBAN_BOARD_CREATE",
+     "KANBAN_BOARD_VIEW",
+     "KANBAN_TASK_CREATE",
+     "KANBAN_TASK_UPDATE",
+     "KANBAN_TASK_MOVE",
+     "KANBAN_TASK_DELETE",
+     "KANBAN_TASK_COMPLETE",
+     "KANBAN_TASK_VIEW_USER",
+
+ ];
 
   return (
     <div className="space-y-6">
