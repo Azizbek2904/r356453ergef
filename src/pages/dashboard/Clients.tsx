@@ -22,7 +22,7 @@ import {
   Plus,
 } from "lucide-react";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://207.154.227.250:8080";
 
 export default function Clients() {
   const [clients, setClients] = useState([]);

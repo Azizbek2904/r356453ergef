@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { toast } from "sonner";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://207.154.227.250:8080";
 
 export default function Employees() {
   const [employees, setEmployees] = useState([]);

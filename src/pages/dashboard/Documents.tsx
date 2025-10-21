@@ -8,7 +8,7 @@ import { FileText, Download, Eye, Search } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { toast } from "sonner";
 
-const API_BASE = "http://localhost:8080/api"; // Backend URL
+const API_BASE = "http://207.154.227.250:8080/api"; // Backend URL
 
 // Rangli teglar
 const documentTypeColors: Record<string, string> = {

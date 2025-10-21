@@ -11,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { toast } from "sonner";
 import { Eye, Upload, Download, Edit, Save, Archive, Trash2, X } from "lucide-react";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://207.154.227.250:8080";
 
 export default function MainPayment() {
   const [clients, setClients] = useState([]);

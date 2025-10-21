@@ -14,7 +14,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
 
-const API_BASE = "http://localhost:8080"; // backend manzili
+const API_BASE = "http://207.154.227.250:8080"; // backend manzili
 const token = localStorage.getItem("token");
 
 const Finance = () => {

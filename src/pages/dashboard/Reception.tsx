@@ -7,7 +7,7 @@ import { Calendar, Check, X } from "lucide-react";
 import { toast } from "sonner";
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const API_BASE = import.meta.env.VITE_API_URL || "http://207.154.227.250:8080";
 
 export default function Reception() {
   const [visits, setVisits] = useState<any[]>([]);

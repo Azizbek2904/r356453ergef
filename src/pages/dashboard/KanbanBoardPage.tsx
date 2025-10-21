@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 
-const API_BASE = "http://localhost:8080/api/kanban";
+const API_BASE = "http://207.154.227.250:8080/api/kanban";
 
 interface User {
     id: number;

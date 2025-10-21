@@ -38,7 +38,7 @@ import {
   FilePlus2,
 } from "lucide-react";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://207.154.227.250:8080";
 
 export default function LeadAssign() {
   const [salesManagers, setSalesManagers] = useState([]);
